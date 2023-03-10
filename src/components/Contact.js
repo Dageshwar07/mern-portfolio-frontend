@@ -53,7 +53,7 @@ const Contact = () => {
       const data = await res.json();
 
       if (data.status == 201) {
-        toast.success("Your Response Submitted");
+        toast.success("Your Response Submitted please check your email");
         setInputvalue({
           ...inputvalue,
           fname: "",
