@@ -41,7 +41,7 @@ const Contact = () => {
     } else if (mobile == "") {
       toast.error("mobile is require")
     } else {
-      const res = await fetch("https://portfoliomern.onrender.com/register", {
+      const res = await fetch("https://mern-portfolio-bakend.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
